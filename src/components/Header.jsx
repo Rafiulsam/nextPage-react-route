@@ -12,9 +12,9 @@ const Header = () => {
                 <Link to='/' className='inline-flex items-center gap-2'><BoltIcon className='h-6 w-6 text-blue-500' /> <span className='text-xl font-bold'>nextPage</span></Link>
                 {/* nav items section*/}
                 <div className='space-x-8 font-semibold'>
-                    <NavLink to='/' className={({ isActive }) => isActive ? "text-blue-600" : ""}>Home</NavLink>
-                    <NavLink to='books' className={({ isActive }) => isActive ? "text-blue-600" : ""}>Books</NavLink>
-                    <NavLink to='about' className={({ isActive }) => isActive ? "text-blue-600" : ""}>About us</NavLink>
+                    <NavLink to='/' className={({ isActive }) => isActive ? "text-blue-600 ": "hover:text-blue-400 transition-colors duration-200"}>Home</NavLink>
+                    <NavLink to='books' className={({ isActive }) => isActive ? "text-blue-600 ": "hover:text-blue-400 transition-colors duration-200"}>Books</NavLink>
+                    <NavLink to='about' className={({ isActive }) => isActive ? "text-blue-600 ": "hover:text-blue-400 transition-colors duration-200"}>About us</NavLink>
                 </div>
             </div>
             {/* mobile nav section */}
