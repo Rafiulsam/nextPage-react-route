@@ -4,8 +4,8 @@ import Book from './Book';
 
 
 const Books = () => {
-    const booksData = useLoaderData()
-    const { books } = booksData
+    const {books} = useLoaderData()
+    
     return (
         <div className='my-container'>
             <div className='grid gap-6 mb-8 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
