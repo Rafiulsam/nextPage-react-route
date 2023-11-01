@@ -6,9 +6,9 @@ import animation from "../assets/animation.json"
 
 const Home = () => {
     return (
-        <div className='my-container flex flex-col items-center justify-between lg:flex-row gap-5'>
+        <div className='my-container flex flex-col items-center justify-between lg:flex-row md:flex-row gap-5 '>
             {/* Text Content */}
-            <div className='mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0'>
+            <div className='lg:max-w-lg  lg:pr-5'>
                 <div className='max-w-xl mb-6 lg:mt-8'>
                     <div>
                         <p className='badge'>On Sale!</p>
@@ -39,10 +39,10 @@ const Home = () => {
                 </div>
             </div>
             {/* Lottie Animation */}
-            <div className='relative lg:w-1/2'>
-                <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
+            <div className='lg:w-1/2'>
+                
                 <Lottie animationData={animation}/>
-                </div>
+                
             </div>
         </div>
     );
