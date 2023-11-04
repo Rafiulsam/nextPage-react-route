@@ -23,12 +23,11 @@ const BooksDetails = () => {
                 <p>Year: {year}</p>
                 <p>Ratings: {rating}</p>
                 {fold ? (
-                    <>
-                        <p className='my-5 text-gray-500'>{desc.substring(0, 100)}..... <span className='cursor-pointer text-blue-600 hover:underline' onClick={() => setFold(!fold)}>More</span></p>
-                    </>
-                ) : (<>
-                    <p className='my-5 text-gray-800'>{desc}<span className='cursor-pointer text-blue-600 hover:underline' onClick={() => setFold(!fold)}> Less</span></p>
-                </>)}
+                    <p className='my-5 text-gray-500'>{desc.substring(0, 100)}..... <span className='cursor-pointer text-blue-600 hover:underline' onClick={() => setFold(!fold)}>See More</span></p>
+                    
+                ) : (
+                    <p className='my-5 text-gray-800'>{desc}<span className='cursor-pointer text-blue-600 hover:underline' onClick={() => setFold(!fold)}> See Less</span></p>
+                )}
                 <div className='flex gap-3 items-center'>
                     <a href={url} target='_blank' className='btn'>Buy Now</a>
                     <p className='font-extrabold text-gray-600'>Price: {price}</p>

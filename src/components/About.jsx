@@ -29,9 +29,8 @@ const About = () => {
                     height='24'
                   />
                 </svg>
-                <span className='relative'>A</span>
-              </span>{' '}
-              reader lives a thousand lives before he dies
+                A
+              </span> reader lives a thousand lives before he dies
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
               Books are a uniquely portable magic. Books serve to show a man that
