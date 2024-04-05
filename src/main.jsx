@@ -7,7 +7,6 @@ import Home from './components/Home'
 import Books from './components/Books'
 import About from './components/About'
 import BooksDetails from './components/BooksDetails'
-import LoadingSpinner from './components/LoadingSpinner'
 import ErrorPage from './components/ErrorPage'
 
 const router = createBrowserRouter([
