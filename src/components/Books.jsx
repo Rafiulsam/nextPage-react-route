@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLoaderData, useNavigation } from 'react-router-dom';
 import Book from './Book';
 import LoadingSpinner from './LoadingSpinner';
