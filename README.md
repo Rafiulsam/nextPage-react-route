@@ -1,4 +1,4 @@
-# BookNest [Alt Text](assets/book-logo.png)
+# BookNest 
 
 BookNest is an elegant and user-friendly **online book store** that allows users to browse, search, and purchase books with ease. Built using **React**, this platform provides a seamless shopping experience for book enthusiasts.
 
