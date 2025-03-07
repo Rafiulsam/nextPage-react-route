@@ -10,9 +10,9 @@ BookNest is an elegant and user-friendly **online book store** that allows users
 
 ## 🛠️ Technologies Used
 
-- **react:** 
-- **react router dom:** 
-- **Tailwind:**
+- **react** 
+- **react router dom** 
+- **Tailwind**
 
 ## 📂 Installation & Setup
 
