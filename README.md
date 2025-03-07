@@ -1,8 +1,37 @@
-# React + Vite
+# BookNest 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookNest is an elegant and user-friendly **online book store** that allows users to browse, search, and purchase books with ease. Built using **React**, this platform provides a seamless shopping experience for book enthusiasts.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Book Listing** – Displays a collection of books with relevant details like title, author, price, and cover image.
+- **Book Details Page** – Provides in-depth details about each book.
+- **Responsive UI** – Fully responsive design ensuring a smooth experience across all devices.
+
+## 🛠️ Technologies Used
+
+- **react:** 
+- **react router dom:** 
+- **Tailwind:**
+
+## 📂 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/booknest.git
+   cd booknest
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## 🔗 Live Demo
+[Visit BookNest](https://booknest768.netlify.app/)
+
+## 🙌 Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
